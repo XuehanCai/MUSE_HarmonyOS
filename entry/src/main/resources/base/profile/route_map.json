@@ -1,0 +1,29 @@
+{
+  "routerMap": [
+    {
+      "name": "Start",
+      "pageSourceFile": "src/main/ets/pages/Start.ets",
+      "buildFunction": "StartBuilder",
+      "data": {
+        "description": "this is Start"
+      }
+    },
+    {
+      "name": "layout",
+      "pageSourceFile": "src/main/ets/pages/layout.ets",
+      "buildFunction": "layoutBuilder",
+      "data": {
+        "description": "this is layout"
+      }
+
+    },
+    {
+      "name": "Play",
+      "pageSourceFile": "src/main/ets/pages/Play.ets",
+      "buildFunction": "PlayBuilder",
+      "data": {
+        "description": "this is play"
+      }}
+
+  ]
+}
